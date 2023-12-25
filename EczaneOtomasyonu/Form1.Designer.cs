@@ -68,7 +68,7 @@
             this.çıkışToolStripMenuItem});
 			this.menuStrip1.Location = new System.Drawing.Point(0, 0);
 			this.menuStrip1.Name = "menuStrip1";
-			this.menuStrip1.Size = new System.Drawing.Size(1270, 36);
+			this.menuStrip1.Size = new System.Drawing.Size(1270, 33);
 			this.menuStrip1.TabIndex = 0;
 			this.menuStrip1.Text = "menuStrip1";
 			// 
@@ -88,6 +88,7 @@
 			this.hastaKaydıToolStripMenuItem.Name = "hastaKaydıToolStripMenuItem";
 			this.hastaKaydıToolStripMenuItem.Size = new System.Drawing.Size(270, 34);
 			this.hastaKaydıToolStripMenuItem.Text = "Hasta Kaydı";
+			this.hastaKaydıToolStripMenuItem.Click += new System.EventHandler(this.hastaKaydıToolStripMenuItem_Click);
 			// 
 			// hastalarıListeleToolStripMenuItem
 			// 
@@ -181,7 +182,7 @@
 			// 
 			this.dataGridView1.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
 			this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-			this.dataGridView1.Location = new System.Drawing.Point(24, 114);
+			this.dataGridView1.Location = new System.Drawing.Point(24, 192);
 			this.dataGridView1.Name = "dataGridView1";
 			this.dataGridView1.RowHeadersWidth = 62;
 			this.dataGridView1.RowTemplate.Height = 28;
@@ -191,7 +192,7 @@
 			// label1
 			// 
 			this.label1.AutoSize = true;
-			this.label1.Location = new System.Drawing.Point(20, 67);
+			this.label1.Location = new System.Drawing.Point(20, 87);
 			this.label1.Name = "label1";
 			this.label1.Size = new System.Drawing.Size(119, 20);
 			this.label1.TabIndex = 2;
@@ -200,7 +201,7 @@
 			// label2
 			// 
 			this.label2.AutoSize = true;
-			this.label2.Location = new System.Drawing.Point(328, 67);
+			this.label2.Location = new System.Drawing.Point(328, 87);
 			this.label2.Name = "label2";
 			this.label2.Size = new System.Drawing.Size(80, 20);
 			this.label2.TabIndex = 4;
@@ -208,7 +209,7 @@
 			// 
 			// txtTcNo
 			// 
-			this.txtTcNo.Location = new System.Drawing.Point(145, 64);
+			this.txtTcNo.Location = new System.Drawing.Point(145, 84);
 			this.txtTcNo.Mask = "00000000000";
 			this.txtTcNo.Name = "txtTcNo";
 			this.txtTcNo.Size = new System.Drawing.Size(170, 26);
@@ -217,7 +218,7 @@
 			// 
 			// txtBarkodNo
 			// 
-			this.txtBarkodNo.Location = new System.Drawing.Point(414, 64);
+			this.txtBarkodNo.Location = new System.Drawing.Point(414, 84);
 			this.txtBarkodNo.Mask = "00000";
 			this.txtBarkodNo.Name = "txtBarkodNo";
 			this.txtBarkodNo.Size = new System.Drawing.Size(170, 26);
@@ -226,7 +227,7 @@
 			// 
 			// numAdet
 			// 
-			this.numAdet.Location = new System.Drawing.Point(648, 64);
+			this.numAdet.Location = new System.Drawing.Point(648, 84);
 			this.numAdet.Minimum = new decimal(new int[] {
             1,
             0,
@@ -244,7 +245,7 @@
 			// label3
 			// 
 			this.label3.AutoSize = true;
-			this.label3.Location = new System.Drawing.Point(585, 67);
+			this.label3.Location = new System.Drawing.Point(585, 87);
 			this.label3.Name = "label3";
 			this.label3.Size = new System.Drawing.Size(43, 20);
 			this.label3.TabIndex = 8;
@@ -252,7 +253,7 @@
 			// 
 			// button1
 			// 
-			this.button1.Location = new System.Drawing.Point(810, 62);
+			this.button1.Location = new System.Drawing.Point(810, 82);
 			this.button1.Name = "button1";
 			this.button1.Size = new System.Drawing.Size(170, 31);
 			this.button1.TabIndex = 9;
