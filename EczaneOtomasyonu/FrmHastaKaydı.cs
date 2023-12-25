@@ -46,7 +46,7 @@ namespace EczaneOtomasyonu
 			}
 			con.Close();
 
-			return 0;
+			return sonuc;
 		}
 		private void button1_Click(object sender, EventArgs e)
 		{

@@ -95,6 +95,7 @@
 			this.hastalarıListeleToolStripMenuItem.Name = "hastalarıListeleToolStripMenuItem";
 			this.hastalarıListeleToolStripMenuItem.Size = new System.Drawing.Size(270, 34);
 			this.hastalarıListeleToolStripMenuItem.Text = "Hastaları Listele";
+			this.hastalarıListeleToolStripMenuItem.Click += new System.EventHandler(this.hastalarıListeleToolStripMenuItem_Click);
 			// 
 			// hastaSilToolStripMenuItem
 			// 

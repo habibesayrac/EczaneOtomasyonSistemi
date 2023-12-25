@@ -116,5 +116,11 @@ namespace EczaneOtomasyonu
 			fr.Show();
 
 		}
+
+		private void hastalarıListeleToolStripMenuItem_Click(object sender, EventArgs e)
+		{
+			FrmHastaListesi fr = new FrmHastaListesi();
+			fr.Show();
+		}
 	}
 }
