@@ -47,14 +47,14 @@
 			this.dataGridView1 = new System.Windows.Forms.DataGridView();
 			this.label1 = new System.Windows.Forms.Label();
 			this.label2 = new System.Windows.Forms.Label();
-			this.maskedTextBox1 = new System.Windows.Forms.MaskedTextBox();
-			this.maskedTextBox2 = new System.Windows.Forms.MaskedTextBox();
-			this.numericUpDown1 = new System.Windows.Forms.NumericUpDown();
+			this.txtTcNo = new System.Windows.Forms.MaskedTextBox();
+			this.txtBarkodNo = new System.Windows.Forms.MaskedTextBox();
+			this.numAdet = new System.Windows.Forms.NumericUpDown();
 			this.label3 = new System.Windows.Forms.Label();
 			this.button1 = new System.Windows.Forms.Button();
 			this.menuStrip1.SuspendLayout();
 			((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
-			((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).BeginInit();
+			((System.ComponentModel.ISupportInitialize)(this.numAdet)).BeginInit();
 			this.SuspendLayout();
 			// 
 			// menuStrip1
@@ -68,7 +68,7 @@
             this.çıkışToolStripMenuItem});
 			this.menuStrip1.Location = new System.Drawing.Point(0, 0);
 			this.menuStrip1.Name = "menuStrip1";
-			this.menuStrip1.Size = new System.Drawing.Size(1270, 33);
+			this.menuStrip1.Size = new System.Drawing.Size(1270, 36);
 			this.menuStrip1.TabIndex = 0;
 			this.menuStrip1.Text = "menuStrip1";
 			// 
@@ -206,30 +206,40 @@
 			this.label2.TabIndex = 4;
 			this.label2.Text = "BarkodNo";
 			// 
-			// maskedTextBox1
+			// txtTcNo
 			// 
-			this.maskedTextBox1.Location = new System.Drawing.Point(145, 64);
-			this.maskedTextBox1.Mask = "0000000000";
-			this.maskedTextBox1.Name = "maskedTextBox1";
-			this.maskedTextBox1.Size = new System.Drawing.Size(170, 26);
-			this.maskedTextBox1.TabIndex = 5;
-			this.maskedTextBox1.ValidatingType = typeof(int);
+			this.txtTcNo.Location = new System.Drawing.Point(145, 64);
+			this.txtTcNo.Mask = "00000000000";
+			this.txtTcNo.Name = "txtTcNo";
+			this.txtTcNo.Size = new System.Drawing.Size(170, 26);
+			this.txtTcNo.TabIndex = 5;
+			this.txtTcNo.ValidatingType = typeof(int);
 			// 
-			// maskedTextBox2
+			// txtBarkodNo
 			// 
-			this.maskedTextBox2.Location = new System.Drawing.Point(414, 64);
-			this.maskedTextBox2.Mask = "00000";
-			this.maskedTextBox2.Name = "maskedTextBox2";
-			this.maskedTextBox2.Size = new System.Drawing.Size(170, 26);
-			this.maskedTextBox2.TabIndex = 6;
-			this.maskedTextBox2.ValidatingType = typeof(int);
+			this.txtBarkodNo.Location = new System.Drawing.Point(414, 64);
+			this.txtBarkodNo.Mask = "00000";
+			this.txtBarkodNo.Name = "txtBarkodNo";
+			this.txtBarkodNo.Size = new System.Drawing.Size(170, 26);
+			this.txtBarkodNo.TabIndex = 6;
+			this.txtBarkodNo.ValidatingType = typeof(int);
 			// 
-			// numericUpDown1
+			// numAdet
 			// 
-			this.numericUpDown1.Location = new System.Drawing.Point(648, 64);
-			this.numericUpDown1.Name = "numericUpDown1";
-			this.numericUpDown1.Size = new System.Drawing.Size(75, 26);
-			this.numericUpDown1.TabIndex = 7;
+			this.numAdet.Location = new System.Drawing.Point(648, 64);
+			this.numAdet.Minimum = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
+			this.numAdet.Name = "numAdet";
+			this.numAdet.Size = new System.Drawing.Size(75, 26);
+			this.numAdet.TabIndex = 7;
+			this.numAdet.Value = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
 			// 
 			// label3
 			// 
@@ -248,6 +258,7 @@
 			this.button1.TabIndex = 9;
 			this.button1.Text = "Satış Yap";
 			this.button1.UseVisualStyleBackColor = true;
+			this.button1.Click += new System.EventHandler(this.button1_Click);
 			// 
 			// Form1
 			// 
@@ -256,9 +267,9 @@
 			this.ClientSize = new System.Drawing.Size(1270, 466);
 			this.Controls.Add(this.button1);
 			this.Controls.Add(this.label3);
-			this.Controls.Add(this.numericUpDown1);
-			this.Controls.Add(this.maskedTextBox2);
-			this.Controls.Add(this.maskedTextBox1);
+			this.Controls.Add(this.numAdet);
+			this.Controls.Add(this.txtBarkodNo);
+			this.Controls.Add(this.txtTcNo);
 			this.Controls.Add(this.label2);
 			this.Controls.Add(this.label1);
 			this.Controls.Add(this.dataGridView1);
@@ -272,7 +283,7 @@
 			this.menuStrip1.ResumeLayout(false);
 			this.menuStrip1.PerformLayout();
 			((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
-			((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).EndInit();
+			((System.ComponentModel.ISupportInitialize)(this.numAdet)).EndInit();
 			this.ResumeLayout(false);
 			this.PerformLayout();
 
@@ -299,9 +310,9 @@
 		private System.Windows.Forms.DataGridView dataGridView1;
 		private System.Windows.Forms.Label label1;
 		private System.Windows.Forms.Label label2;
-		private System.Windows.Forms.MaskedTextBox maskedTextBox1;
-		private System.Windows.Forms.MaskedTextBox maskedTextBox2;
-		private System.Windows.Forms.NumericUpDown numericUpDown1;
+		private System.Windows.Forms.MaskedTextBox txtTcNo;
+		private System.Windows.Forms.MaskedTextBox txtBarkodNo;
+		private System.Windows.Forms.NumericUpDown numAdet;
 		private System.Windows.Forms.Label label3;
 		private System.Windows.Forms.Button button1;
 	}
