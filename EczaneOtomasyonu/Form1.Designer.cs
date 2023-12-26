@@ -109,6 +109,7 @@
             this.hastaGüncelleToolStripMenuItem.Name = "hastaGüncelleToolStripMenuItem";
             this.hastaGüncelleToolStripMenuItem.Size = new System.Drawing.Size(270, 34);
             this.hastaGüncelleToolStripMenuItem.Text = "Hasta Güncelle";
+            this.hastaGüncelleToolStripMenuItem.Click += new System.EventHandler(this.hastaGüncelleToolStripMenuItem_Click);
             // 
             // ilaçlarToolStripMenuItem
             // 

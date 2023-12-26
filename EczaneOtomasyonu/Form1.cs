@@ -128,5 +128,11 @@ namespace EczaneOtomasyonu
 			FrmHastaSil fr = new FrmHastaSil();
 			fr.Show();
         }
+
+        private void hastaGüncelleToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+			FrmHastaGüncelle fr = new FrmHastaGüncelle();
+			fr.Show();
+        }
     }
 }
