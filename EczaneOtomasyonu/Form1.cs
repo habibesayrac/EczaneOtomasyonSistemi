@@ -122,5 +122,11 @@ namespace EczaneOtomasyonu
 			FrmHastaListesi fr = new FrmHastaListesi();
 			fr.Show();
 		}
-	}
+
+        private void hastaSilToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+			FrmHastaSil fr = new FrmHastaSil();
+			fr.Show();
+        }
+    }
 }
