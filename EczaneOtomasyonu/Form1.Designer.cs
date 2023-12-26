@@ -86,28 +86,28 @@
             // hastaKaydıToolStripMenuItem
             // 
             this.hastaKaydıToolStripMenuItem.Name = "hastaKaydıToolStripMenuItem";
-            this.hastaKaydıToolStripMenuItem.Size = new System.Drawing.Size(270, 34);
+            this.hastaKaydıToolStripMenuItem.Size = new System.Drawing.Size(235, 34);
             this.hastaKaydıToolStripMenuItem.Text = "Hasta Kaydı";
             this.hastaKaydıToolStripMenuItem.Click += new System.EventHandler(this.hastaKaydıToolStripMenuItem_Click);
             // 
             // hastalarıListeleToolStripMenuItem
             // 
             this.hastalarıListeleToolStripMenuItem.Name = "hastalarıListeleToolStripMenuItem";
-            this.hastalarıListeleToolStripMenuItem.Size = new System.Drawing.Size(270, 34);
+            this.hastalarıListeleToolStripMenuItem.Size = new System.Drawing.Size(235, 34);
             this.hastalarıListeleToolStripMenuItem.Text = "Hastaları Listele";
             this.hastalarıListeleToolStripMenuItem.Click += new System.EventHandler(this.hastalarıListeleToolStripMenuItem_Click);
             // 
             // hastaSilToolStripMenuItem
             // 
             this.hastaSilToolStripMenuItem.Name = "hastaSilToolStripMenuItem";
-            this.hastaSilToolStripMenuItem.Size = new System.Drawing.Size(270, 34);
+            this.hastaSilToolStripMenuItem.Size = new System.Drawing.Size(235, 34);
             this.hastaSilToolStripMenuItem.Text = "Hasta Sil";
             this.hastaSilToolStripMenuItem.Click += new System.EventHandler(this.hastaSilToolStripMenuItem_Click);
             // 
             // hastaGüncelleToolStripMenuItem
             // 
             this.hastaGüncelleToolStripMenuItem.Name = "hastaGüncelleToolStripMenuItem";
-            this.hastaGüncelleToolStripMenuItem.Size = new System.Drawing.Size(270, 34);
+            this.hastaGüncelleToolStripMenuItem.Size = new System.Drawing.Size(235, 34);
             this.hastaGüncelleToolStripMenuItem.Text = "Hasta Güncelle";
             this.hastaGüncelleToolStripMenuItem.Click += new System.EventHandler(this.hastaGüncelleToolStripMenuItem_Click);
             // 
@@ -125,25 +125,26 @@
             // ilaçKaydıToolStripMenuItem
             // 
             this.ilaçKaydıToolStripMenuItem.Name = "ilaçKaydıToolStripMenuItem";
-            this.ilaçKaydıToolStripMenuItem.Size = new System.Drawing.Size(216, 34);
+            this.ilaçKaydıToolStripMenuItem.Size = new System.Drawing.Size(270, 34);
             this.ilaçKaydıToolStripMenuItem.Text = "İlaç Kaydı";
+            this.ilaçKaydıToolStripMenuItem.Click += new System.EventHandler(this.ilaçKaydıToolStripMenuItem_Click);
             // 
             // ilaçlarıListeleToolStripMenuItem
             // 
             this.ilaçlarıListeleToolStripMenuItem.Name = "ilaçlarıListeleToolStripMenuItem";
-            this.ilaçlarıListeleToolStripMenuItem.Size = new System.Drawing.Size(216, 34);
+            this.ilaçlarıListeleToolStripMenuItem.Size = new System.Drawing.Size(270, 34);
             this.ilaçlarıListeleToolStripMenuItem.Text = "İlaçları Listele";
             // 
             // ilaçSilToolStripMenuItem
             // 
             this.ilaçSilToolStripMenuItem.Name = "ilaçSilToolStripMenuItem";
-            this.ilaçSilToolStripMenuItem.Size = new System.Drawing.Size(216, 34);
+            this.ilaçSilToolStripMenuItem.Size = new System.Drawing.Size(270, 34);
             this.ilaçSilToolStripMenuItem.Text = "İlaç Sil";
             // 
             // ilaçGüncelleToolStripMenuItem
             // 
             this.ilaçGüncelleToolStripMenuItem.Name = "ilaçGüncelleToolStripMenuItem";
-            this.ilaçGüncelleToolStripMenuItem.Size = new System.Drawing.Size(216, 34);
+            this.ilaçGüncelleToolStripMenuItem.Size = new System.Drawing.Size(270, 34);
             this.ilaçGüncelleToolStripMenuItem.Text = "İlaç Güncelle";
             // 
             // güvenceToolStripMenuItem

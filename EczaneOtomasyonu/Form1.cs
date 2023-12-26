@@ -134,5 +134,12 @@ namespace EczaneOtomasyonu
 			FrmHastaGüncelle fr = new FrmHastaGüncelle();
 			fr.Show();
         }
+
+        private void ilaçKaydıToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+			FrmIlacKaydi fr = new FrmIlacKaydi();
+			fr.Show();
+
+        }
     }
 }
