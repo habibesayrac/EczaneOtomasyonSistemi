@@ -68,7 +68,7 @@
             this.çıkışToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(1270, 33);
+            this.menuStrip1.Size = new System.Drawing.Size(1374, 33);
             this.menuStrip1.TabIndex = 0;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -134,6 +134,7 @@
             this.ilaçlarıListeleToolStripMenuItem.Name = "ilaçlarıListeleToolStripMenuItem";
             this.ilaçlarıListeleToolStripMenuItem.Size = new System.Drawing.Size(270, 34);
             this.ilaçlarıListeleToolStripMenuItem.Text = "İlaçları Listele";
+            this.ilaçlarıListeleToolStripMenuItem.Click += new System.EventHandler(this.ilaçlarıListeleToolStripMenuItem_Click);
             // 
             // ilaçSilToolStripMenuItem
             // 
@@ -190,7 +191,7 @@
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.RowHeadersWidth = 62;
             this.dataGridView1.RowTemplate.Height = 28;
-            this.dataGridView1.Size = new System.Drawing.Size(1187, 138);
+            this.dataGridView1.Size = new System.Drawing.Size(1338, 222);
             this.dataGridView1.TabIndex = 1;
             // 
             // label1
@@ -269,7 +270,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1270, 466);
+            this.ClientSize = new System.Drawing.Size(1374, 493);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.numAdet);
