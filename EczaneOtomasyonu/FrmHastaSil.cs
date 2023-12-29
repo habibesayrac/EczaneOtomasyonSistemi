@@ -28,23 +28,29 @@ namespace EczaneOtomasyonu
         }
         private void FrmHastaSil_Load(object sender, EventArgs e)
         {
-            listele();         
+            listele();
         }
 
         private void btnAra_Click(object sender, EventArgs e)
         {
-            OleDbDataAdapter da = new OleDbDataAdapter("select * from Hastalar where durum = true and TcNo='"+txtNumara.Text+"'", con);
-            DataTable tablo = new DataTable();
-            da.Fill(tablo);
-            dataGridView1.DataSource = tablo;
+            if (txtNumara.Text == "")
+            {
+                MessageBox.Show("Aradığınız kişinin numarasını giriniz", "Hata", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+            }
+            else
+            {
+                OleDbDataAdapter da = new OleDbDataAdapter("select * from Hastalar where durum = true and TcNo='" + txtNumara.Text + "'", con);
+                DataTable tablo = new DataTable();
+                da.Fill(tablo);
+                dataGridView1.DataSource = tablo;
+            }
         }
-
         private void btnSil_Click(object sender, EventArgs e)
         {
             OleDbCommand komut = new OleDbCommand("update Hastalar set durum=false where TcNo=@p1", con);
             con.Open();
             komut.Parameters.AddWithValue("@p1", txtNumara.Text);
-            int sonuc= komut.ExecuteNonQuery();
+            int sonuc = komut.ExecuteNonQuery();
             if (sonuc > 0)
             {
                 MessageBox.Show(txtNumara.Text + "numaralı kayıt silindi");

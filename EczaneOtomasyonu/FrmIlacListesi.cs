@@ -18,7 +18,6 @@ namespace EczaneOtomasyonu
             InitializeComponent();
         }
         OleDbConnection con = new OleDbConnection("provider=microsoft.ace.oledb.12.0; data source=EczaneDb.accdb");
-
         public void listele()
         {
             OleDbDataAdapter da = new OleDbDataAdapter("select * from Ilaclar where durum = true", con);

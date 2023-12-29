@@ -141,6 +141,7 @@
             this.ilaçSilToolStripMenuItem.Name = "ilaçSilToolStripMenuItem";
             this.ilaçSilToolStripMenuItem.Size = new System.Drawing.Size(270, 34);
             this.ilaçSilToolStripMenuItem.Text = "İlaç Sil";
+            this.ilaçSilToolStripMenuItem.Click += new System.EventHandler(this.ilaçSilToolStripMenuItem_Click);
             // 
             // ilaçGüncelleToolStripMenuItem
             // 
