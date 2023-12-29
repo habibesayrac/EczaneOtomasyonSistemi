@@ -68,7 +68,7 @@
             this.çıkışToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(1374, 33);
+            this.menuStrip1.Size = new System.Drawing.Size(1374, 36);
             this.menuStrip1.TabIndex = 0;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -119,7 +119,7 @@
             this.ilaçSilToolStripMenuItem,
             this.ilaçGüncelleToolStripMenuItem});
             this.ilaçlarToolStripMenuItem.Name = "ilaçlarToolStripMenuItem";
-            this.ilaçlarToolStripMenuItem.Size = new System.Drawing.Size(73, 29);
+            this.ilaçlarToolStripMenuItem.Size = new System.Drawing.Size(73, 30);
             this.ilaçlarToolStripMenuItem.Text = "İlaçlar";
             // 
             // ilaçKaydıToolStripMenuItem
@@ -148,6 +148,7 @@
             this.ilaçGüncelleToolStripMenuItem.Name = "ilaçGüncelleToolStripMenuItem";
             this.ilaçGüncelleToolStripMenuItem.Size = new System.Drawing.Size(270, 34);
             this.ilaçGüncelleToolStripMenuItem.Text = "İlaç Güncelle";
+            this.ilaçGüncelleToolStripMenuItem.Click += new System.EventHandler(this.ilaçGüncelleToolStripMenuItem_Click);
             // 
             // güvenceToolStripMenuItem
             // 

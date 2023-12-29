@@ -141,5 +141,11 @@ namespace EczaneOtomasyonu
             FrmIlacSil fr = new FrmIlacSil();
             fr.Show();
         }
+
+        private void ilaçGüncelleToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            FrmIlacGuncelle fr = new FrmIlacGuncelle();
+            fr.Show();
+        }
     }
 }

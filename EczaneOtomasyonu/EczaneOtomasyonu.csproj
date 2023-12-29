@@ -76,6 +76,12 @@
     <Compile Include="FrmHastaSil.Designer.cs">
       <DependentUpon>FrmHastaSil.cs</DependentUpon>
     </Compile>
+    <Compile Include="FrmIlacGuncelle.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmIlacGuncelle.Designer.cs">
+      <DependentUpon>FrmIlacGuncelle.cs</DependentUpon>
+    </Compile>
     <Compile Include="FrmIlacKaydi.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -110,6 +116,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="FrmHastaSil.resx">
       <DependentUpon>FrmHastaSil.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmIlacGuncelle.resx">
+      <DependentUpon>FrmIlacGuncelle.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FrmIlacKaydi.resx">
       <DependentUpon>FrmIlacKaydi.cs</DependentUpon>
